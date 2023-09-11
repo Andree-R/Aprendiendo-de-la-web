@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: gainsboro;
+}
+
+picture{
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  */
+  /* gap: 10px; */
+  overflow: hidden;
+  position: relative;
+  columns: 4 240px;
+  display: block;
+  column-gap: 5px;
+}
+
+img{
+  max-width: 100%;
+  transition: 500ms ease-in-out;
+}
+
+img:hover{
+  transform: scale(1.5);
+  object-fit: cover;
+  transform-origin: center; 
+}

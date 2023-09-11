@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  border: 1px solid #767676;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  border-radius: 10px;
+  width: 350px;
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+input{
+  margin-bottom: 20px;
+  border: 1px solid #767676;
+  border-radius: 2.5px;
+  color: #767676;
+  height: 30px;
+  width: 100%;
+}
+
+picture{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 1.55em;
+  text-transform: uppercase;
+}
+
+input[type="submit"]{
+
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1;
+}

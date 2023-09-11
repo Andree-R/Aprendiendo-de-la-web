@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+h1, h2{
+  background-color: gainsboro;
+  padding: 0.5rem;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+li{
+  line-height: 1.5;
+}
+
+p{
+  line-height: 1.5;
+}
+
+iframe{
+  align-self: center;
+}
